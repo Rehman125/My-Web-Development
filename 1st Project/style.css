@@ -1,0 +1,234 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #e74c3c;
+    font-family: 'Georgia', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #e74c3c;
+    margin: 20px 0;
+    opacity: 0.5;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    background-color: #e67e22;
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Image Styling */
+figure {
+    text-align: center;
+    margin-top: 20px;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Main Content */
+main {
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p, dl, table {
+    font-size: 1.1rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f39c12;
+    color: white;
+}
+
+caption {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #e74c3c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #34495e;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Hours Page */
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* Contact Page */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+/* Address Section */
+address {
+    font-style: normal;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+address a {
+    color: #2980b9;
+}
+
+address a:hover {
+    color: #e74c3c;
+}
